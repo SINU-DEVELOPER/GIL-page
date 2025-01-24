@@ -107,6 +107,8 @@
   /* <!-- Awards images 4 start  --> */
 
 
+  /* <!-- student images 4   with 40 words text start --> */
+
   .award-images-section {
     background-color: #f8f9fa; 
   }
@@ -122,3 +124,29 @@
   }
   
   /* <!-- Awards images 4 end  --> */
+
+
+  .student-images-section {
+    background-color: #f8f9fa; /* Light background for the section */
+  }
+  
+  h2 {
+    color: #343a40; /* Dark heading color */
+    font-size: 2rem;
+  }
+  
+  .student-card img {
+    width: 120px; /* Set size of student images */
+    height: 120px;
+    object-fit: cover;
+  }
+  
+  .student-card p {
+    font-size: 0.9rem;
+    color: #555;
+    padding-top: 10px;
+  }
+
+  /* <!-- student images 4   with 40 words text end --> */
+
+  
