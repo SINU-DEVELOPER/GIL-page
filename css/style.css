@@ -8,14 +8,21 @@
 
 }
 
+img{
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+
 /* section 1  start */
 
 .header-section {
     background-color: #f8f9fa; 
   }
+ 
   
   .logo img {
-    max-height: 60px; 
+    max-height: 70px; 
+    border: none;
   }
   
 
@@ -46,6 +53,8 @@
   .content {
     font-size: 1rem;
     line-height: 1.6;
+    text-align: justify;
+    text-align-last: center;
   }
   
   #readMoreBtn {
@@ -113,15 +122,19 @@
     background-color: #f8f9fa; 
   }
   
-  h2 {
+  .award-images-section h2 {
     color: #343a40; 
     font-size: 2rem;
   }
   
-  img {
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  .award-images-section img {
+    /* border-radius: 10px; */
+    
+    height: 100px;
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
   }
+
+
   
   /* <!-- Awards images 4 end  --> */
 
@@ -136,7 +149,7 @@
   }
   
   .student-card img {
-    width: 120px; /* Set size of student images */
+    width: 120px; 
     height: 120px;
     object-fit: cover;
   }
@@ -153,14 +166,14 @@
 
   .internship-placement-section img {
     width: 100%;
-    height: auto;
+    height: 90px;
     object-fit: contain;
   }
   
   .alumni-photo img {
-    width: 120px;
-    height: 120px;
-    object-fit: cover;
+    width: 220px;
+    height: 270px;
+    
   }
   
   h2 {
