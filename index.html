@@ -1,52 +1,344 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GIL Webiste</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+    <!-- style css file  -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- font awesome cdn  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- boostrap 5 cdn  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
 
-    <!-- header logo  -->
-     
+    <!-- animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- header logo section 1 -->
+    <section class="header-section">
+      <header class="container py-3">
+        <div class="d-flex justify-content-md-start">
+          <a href="#" class="logo">
+            <img
+              src="logo.png"
+              alt="Logo"
+              class="img-fluid"
+              style="max-height: 60px"
+            />
+          </a>
+        </div>
+      </header>
+    </section>
+
     <!-- header logo  end -->
 
-    <!-- 2 cover images start  -->
+    <!-- 2 cover images start section 2 -->
+
+    <section class="carousel-section">
+      <div
+        id="carouselExample"
+        class="carousel slide"
+        data-bs-ride="carousel"
+        style="height: 100vh"
+      >
+        <div class="carousel-inner h-100">
+          <!-- Slide 1 -->
+          <div class="carousel-item active h-100">
+            <img
+              src="image1.jpg"
+              class="d-block w-100 h-100 object-fit-cover"
+              alt="Slide 1"
+            />
+          </div>
+          <!-- Slide 2 -->
+          <div class="carousel-item h-100">
+            <img
+              src="image2.jpg"
+              class="d-block w-100 h-100 object-fit-cover"
+              alt="Slide 2"
+            />
+          </div>
+        </div>
+        <!-- Optional: Navigation Controls -->
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
     <!-- cover images end  -->
 
     <!-- paragraph with tagline (100 words ) also add read more button   -->
-     <!-- paragrapgh end  -->
 
-     <!-- course details with dropdown start  -->
-     <!-- course details with dropdown end  -->
+    <section class="tagline-section py-5">
+      <div class="container text-center">
+        <h2 class="tagline mb-4">Example text</h2>
+        <p class="content">
+          Welcome to our platform, where innovation meets simplicity. We are
+          dedicated to providing cutting-edge solutions tailored to your needs.
+          <span class="extra-content d-none d-md-inline">
+            Whether you're a beginner or a pro, our tools and resources are
+            designed to elevate your experience and help you achieve your goals
+            effortlessly. Dive into a world of possibilities and let us guide
+            you every step of the way. Together, we build a future of endless
+            opportunities. Discover the difference with us today and make your
+            vision a reality.
+          </span>
+        </p>
+        <button class="btn btn-primary mt-3 d-md-none" id="readMoreBtn">
+          Read More
+        </button>
+      </div>
+    </section>
 
-     <!-- youtube video add start  -->
-     <!-- youtube video add end  -->
+    <!-- paragrapgh end  -->
 
-     <!-- Awards imaegs 4 start  -->
-     <!-- Awards imaegs 4 end  -->
+    <!-- course details with dropdown start section 3 -->
 
-     <!-- student images 4   with 40 words text start -->
-     <!-- student images 4  with 40 words text end -->
+    <section class="course-details-section py-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Explore Our Courses</h2>
+        <div class="row g-2">
+          <!-- Course 1 -->
+          <div class="col-md-6">
+            <div class="accordion" id="accordionCourse1">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingCourse1">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseCourse1"
+                    aria-expanded="true"
+                    aria-controls="collapseCourse1"
+                  >
+                    Web Development Bootcamp
+                  </button>
+                </h2>
+                <div
+                  id="collapseCourse1"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingCourse1"
+                  data-bs-parent="#accordionCourse1"
+                >
+                  <div class="accordion-body">
+                    Learn HTML, CSS, JavaScript, and Bootstrap in an interactive
+                    environment. Build real-world projects to master frontend
+                    and backend development.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
 
-     <!-- intership and placement logo and alumni 12 photos 4 *3 with slider also text start  -->
-     <!-- intership and placement logo and alumni 12 photos 4 *3 with slider also text end  -->
-     
+          <!-- Course 2 -->
+          <div class="col-md-6">
+            <div class="accordion" id="accordionCourse2">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingCourse2">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseCourse2"
+                    aria-expanded="false"
+                    aria-controls="collapseCourse2"
+                  >
+                    Data Science Mastery
+                  </button>
+                </h2>
+                <div
+                  id="collapseCourse2"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingCourse2"
+                  data-bs-parent="#accordionCourse2"
+                >
+                  <div class="accordion-body">
+                    Dive into Python, machine learning, and data visualization.
+                    Solve real-life problems using data science techniques.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
 
+          <!-- Course 3 -->
+          <div class="col-md-6">
+            <div class="accordion" id="accordionCourse3">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingCourse3">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseCourse3"
+                    aria-expanded="false"
+                    aria-controls="collapseCourse3"
+                  >
+                    Mobile App Development
+                  </button>
+                </h2>
+                <div
+                  id="collapseCourse3"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingCourse3"
+                  data-bs-parent="#accordionCourse3"
+                >
+                  <div class="accordion-body">
+                    Master the art of building Android and iOS applications
+                    using Flutter and React Native. Learn deployment techniques
+                    for app stores.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
 
+          <!-- Course 4 -->
+          <div class="col-md-6">
+            <div class="accordion" id="accordionCourse4">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingCourse4">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseCourse4"
+                    aria-expanded="false"
+                    aria-controls="collapseCourse4"
+                  >
+                    Cybersecurity Fundamentals
+                  </button>
+                </h2>
+                <div
+                  id="collapseCourse4"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingCourse4"
+                  data-bs-parent="#accordionCourse4"
+                >
+                  <div class="accordion-body">
+                    Learn how to secure systems and prevent cyberattacks. Topics
+                    include ethical hacking, network security, and threat
+                    management.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <!-- course details with dropdown end  -->
 
-    
+    <!-- youtube video add start  -->
+    <section class="video-section py-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Watch Our Featured Video</h2>
+        <div class="row justify-content-center">
+          <div class="col-md-8">
+            <div class="ratio ratio-16x9">
+              <iframe
+                src="https://www.youtube.com/embed/qyomWr_C_jA?si=ZlEUvgIrxbs8pg-B"
+                title="YouTube video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <!-- youtube video add end  -->
 
+    <!-- Awards images 4 start  -->
 
+    <section class="award-images-section py-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Our Awards</h2>
+        <div class="row g-4 justify-content-center">
+          <!-- Award 1 -->
+          <div class="col-md-3 col-6 d-flex justify-content-center">
+            <img
+              src="https://via.placeholder.com/300x200.png?text=Award+1"
+              class="img-fluid"
+              alt="Award 1"
+            />
+          </div>
 
+          <!-- Award 2 -->
+          <div class="col-md-3 col-6 d-flex justify-content-center">
+            <img
+              src="https://via.placeholder.com/300x200.png?text=Award+2"
+              class="img-fluid"
+              alt="Award 2"
+            />
+          </div>
 
+          <!-- Award 3 -->
+          <div class="col-md-3 col-6 d-flex justify-content-center">
+            <img
+              src="https://via.placeholder.com/300x200.png?text=Award+3"
+              class="img-fluid"
+              alt="Award 3"
+            />
+          </div>
 
+          <!-- Award 4 -->
+          <div class="col-md-3 col-6 d-flex justify-content-center">
+            <img
+              src="https://via.placeholder.com/300x200.png?text=Award+4"
+              class="img-fluid"
+              alt="Award 4"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <!-- Awards images 4 end  -->
 
+    <!-- student images 4   with 40 words text start -->
+    <!-- student images 4  with 40 words text end -->
 
-<script src="./js/script.js"></script>
-</body>
+    <!-- intership and placement logo and alumni 12 photos 4 *3 with slider also text start  -->
+    <!-- intership and placement logo and alumni 12 photos 4 *3 with slider also text end  -->
+
+    <!-- js files and cdns  -->
+    <script src="./js/script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  </body>
 </html>
