@@ -149,4 +149,31 @@
 
   /* <!-- student images 4   with 40 words text end --> */
 
+  /* <!-- intership and placement logo and alumni 12 photos 4 *3 with slider also text start  --> */
+
+  .internship-placement-section img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+  
+  .alumni-photo img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    color: #343a40;
+    margin-bottom: 1.5rem;
+  }
+  
+  .alumni-photo p {
+    font-size: 0.9rem;
+    color: #555;
+    padding-top: 10px;
+  }
+  
+  /* <!-- intership and placement logo and alumni 12 photos 4 *3 with slider also text end  --> */
   
