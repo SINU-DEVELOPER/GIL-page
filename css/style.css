@@ -143,6 +143,11 @@ body{
   .gil-academic-board .card-body {
     text-align: center;
   }
+
+  .gil-academic-board .board-card
+  {
+    padding: 13px;
+  }
   
 
 

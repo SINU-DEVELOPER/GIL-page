@@ -25,15 +25,23 @@
     <!-- animation -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
-  <body style="overflow-x: hidden;">
+  <body style="overflow-x: hidden">
     <!-- header logo section 1 -->
-    <section class="header-section d-none d-lg-block" data-aos="fade-down"
-    data-aos-duration="1000" >
+    <section
+      class="header-section d-none d-lg-block"
+      data-aos="fade-down"
+      data-aos-duration="1000"
+    >
       <header class="container py-3">
         <div class="d-flex justify-content-md-start">
           <a href="#" class="logo">
-            <img  data-aos="fade-down"
-            data-aos-duration="1100" src="./images/GIL Logo.png" alt="Logo" class="img-fluid" />
+            <img
+              data-aos="fade-down"
+              data-aos-duration="1100"
+              src="./images/GIL Logo.png"
+              alt="Logo"
+              class="img-fluid"
+            />
           </a>
         </div>
       </header>
@@ -44,126 +52,141 @@
     <!-- 2 cover images start section 2 -->
 
     <!-- Desktop Carousel -->
-<section class="carousel-section d-none d-lg-block">
-  <div
-    id="desktopCarousel"
-    class="carousel slide"
-    data-bs-ride="carousel"
-    style="height: 90vh"
-  >
-    <div class="carousel-inner h-100">
-      <!-- Slide 1 -->
-      <div class="carousel-item active h-100">
-        <img
-          src="./images/Header Image.jpg"
-          class="d-block w-100 h-100 object-fit-cover"
-          alt="Slide 1"
-        />
+    <section class="carousel-section d-none d-lg-block">
+      <div
+        id="desktopCarousel"
+        class="carousel slide"
+        data-bs-ride="carousel"
+        style="height: 90vh"
+      >
+        <div class="carousel-inner h-100">
+          <!-- Slide 1 -->
+          <div class="carousel-item active h-100">
+            <img
+              src="./images/Header Image.jpg"
+              class="d-block w-100 h-100 object-fit-cover"
+              alt="Slide 1"
+            />
+          </div>
+          <!-- Slide 2 -->
+          <div class="carousel-item h-100">
+            <img
+              src="./images/Header Image 1.jpg"
+              class="d-block w-100 h-100 object-fit-cover"
+              alt="Slide 2"
+            />
+          </div>
+        </div>
+        <!-- Navigation Controls -->
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#desktopCarousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#desktopCarousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
-      <!-- Slide 2 -->
-      <div class="carousel-item h-100">
-        <img
-          src="./images/Header Image 1.jpg"
-          class="d-block w-100 h-100 object-fit-cover"
-          alt="Slide 2"
-        />
-      </div>
-    </div>
-    <!-- Navigation Controls -->
-    <button
-      class="carousel-control-prev"
-      type="button"
-      data-bs-target="#desktopCarousel"
-      data-bs-slide="prev"
-    >
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button
-      class="carousel-control-next"
-      type="button"
-      data-bs-target="#desktopCarousel"
-      data-bs-slide="next"
-    >
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-</section>
+    </section>
 
-<!-- Mobile Carousel -->
+    <!-- Mobile Carousel -->
 
-<section class="carousel-section d-block d-lg-none">
-  <section class="header-section d-block d-lg-none mobile-header" data-aos="fade-down"
-data-aos-duration="1000" >
-  <header class="container py-1">
-    <div class="d-flex justify-content-md-start">
-      <a href="#" class="logo">
-        <img  data-aos="fade-down" 
-        data-aos-duration="1100" src="./images/GIL Logo.png" alt="Logo" class="img-fluid " style="width: 180px; height:190px;" />
-      </a>
-    </div>
-  </header>
-</section>
-  <div
-    id="mobileCarousel"
-    class="carousel slide"
-    data-bs-ride="carousel"
-    style="height: 100vh"
-  >
-    <div class="carousel-inner h-100">
-      <!-- Slide 1 -->
-      <div class="carousel-item active h-100">
-        <img
-          src="./images/website image gil.jpg"
-          class="d-block w-100 h-100 object-fit-cover"
-          alt="Slide 1"
-        />
+    <section class="carousel-section d-block d-lg-none">
+      <section
+        class="header-section d-block d-lg-none mobile-header"
+        data-aos="fade-down"
+        data-aos-duration="1000"
+      >
+        <header class="container py-1">
+          <div class="d-flex justify-content-md-start">
+            <a href="#" class="logo">
+              <img
+                data-aos="fade-down"
+                data-aos-duration="1100"
+                src="./images/GIL Logo.png"
+                alt="Logo"
+                class="img-fluid"
+                style="width: 180px; height: 190px"
+              />
+            </a>
+          </div>
+        </header>
+      </section>
+      <div
+        id="mobileCarousel"
+        class="carousel slide"
+        data-bs-ride="carousel"
+        style="height: 100vh"
+      >
+        <div class="carousel-inner h-100">
+          <!-- Slide 1 -->
+          <div class="carousel-item active h-100">
+            <img
+              src="./images/website image gil.jpg"
+              class="d-block w-100 h-100 object-fit-cover"
+              alt="Slide 1"
+            />
+          </div>
+          <!-- Slide 2 -->
+          <div class="carousel-item h-100">
+            <img
+              src="./images/website image gil 1.jpg"
+              class="d-block w-100 h-100 object-fit-cover"
+              alt="Slide 2"
+            />
+          </div>
+        </div>
+        <!-- Navigation Controls -->
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#mobileCarousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#mobileCarousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
-      <!-- Slide 2 -->
-      <div class="carousel-item h-100">
-        <img
-          src="./images/website image gil 1.jpg"
-          class="d-block w-100 h-100 object-fit-cover"
-          alt="Slide 2"
-        />
-      </div>
-    </div>
-    <!-- Navigation Controls -->
-    <button
-      class="carousel-control-prev"
-      type="button"
-      data-bs-target="#mobileCarousel"
-      data-bs-slide="prev"
-    >
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button
-      class="carousel-control-next"
-      type="button"
-      data-bs-target="#mobileCarousel"
-      data-bs-slide="next"
-    >
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-</section>
-
+    </section>
 
     <!-- cover images end  -->
 
     <!-- paragraph with tagline (100 words ) also add read more button   -->
 
     <section class="tagline-section py-5">
-      <div class="container text-center" data-aos="fade-down"
-      data-aos-duration="1000">
-        <h2 class="tagline mb-3 fw-bold" data-aos="fade-down"
-        data-aos-duration="1100">About GIL</h2>
+      <div
+        class="container text-center"
+        data-aos="fade-down"
+        data-aos-duration="1000"
+      >
+        <h2
+          class="tagline mb-3 fw-bold"
+          data-aos="fade-down"
+          data-aos-duration="1100"
+        >
+          About GIL
+        </h2>
         <h4 class="mb-3">Promoting Unmatched Legal Excellence</h4>
-        <p data-aos="fade-up"
-        data-aos-duration="1200" class="content">
+        <p data-aos="fade-up" data-aos-duration="1200" class="content">
           Geeta Institute of Law, the pioneer of quality legal education in
           Delhi-NCR, is committed to shaping legal excellence among aspiring
           students. Affiliated with the NAAC A++ accredited Kurukshetra
@@ -178,8 +201,12 @@ data-aos-duration="1000" >
             vision a reality.
           </span>
         </p>
-        <button data-aos="flip-left"
-        data-aos-duration="1300" class="btn  mt-3 d-md-none" id="readMoreBtn">
+        <button
+          data-aos="flip-left"
+          data-aos-duration="1300"
+          class="btn mt-3 d-md-none"
+          id="readMoreBtn"
+        >
           Read More
         </button>
       </div>
@@ -190,14 +217,23 @@ data-aos-duration="1000" >
     <!-- course details with dropdown start section 3 -->
 
     <section class="course-details-section py-5">
-      <div class="container" >
-        <h2 class="text-center mb-4 fw-bold" data-aos="fade-down"
-        data-aos-duration="1000">Courses Offered</h2>
+      <div class="container">
+        <h2
+          class="text-center mb-4 fw-bold"
+          data-aos="fade-down"
+          data-aos-duration="1000"
+        >
+          Courses Offered
+        </h2>
         <div class="row g-2">
           <!-- Course 1 -->
           <div class="col-md-6">
-            <div class="accordion" id="accordionCourse1" data-aos="zoom-out"
-            data-aos-duration="1100">
+            <div
+              class="accordion"
+              id="accordionCourse1"
+              data-aos="zoom-out"
+              data-aos-duration="1100"
+            >
               <div class="accordion-item">
                 <h2 class="accordion-header" id="headingCourse1">
                   <button
@@ -231,8 +267,12 @@ data-aos-duration="1000" >
 
           <!-- Course 2 -->
           <div class="col-md-6">
-            <div class="accordion" id="accordionCourse2" data-aos="zoom-out"
-            data-aos-duration="1200">
+            <div
+              class="accordion"
+              id="accordionCourse2"
+              data-aos="zoom-out"
+              data-aos-duration="1200"
+            >
               <div class="accordion-item">
                 <h2 class="accordion-header" id="headingCourse2">
                   <button
@@ -267,8 +307,12 @@ data-aos-duration="1000" >
 
           <!-- Course 3 -->
           <div class="col-md-6">
-            <div class="accordion" id="accordionCourse3" data-aos="zoom-out"
-            data-aos-duration="1300">
+            <div
+              class="accordion"
+              id="accordionCourse3"
+              data-aos="zoom-out"
+              data-aos-duration="1300"
+            >
               <div class="accordion-item">
                 <h2 class="accordion-header" id="headingCourse3">
                   <button
@@ -302,8 +346,12 @@ data-aos-duration="1000" >
 
           <!-- Course 4 -->
           <div class="col-md-6">
-            <div class="accordion" id="accordionCourse4" data-aos="zoom-out"
-            data-aos-duration="1400">
+            <div
+              class="accordion"
+              id="accordionCourse4"
+              data-aos="zoom-out"
+              data-aos-duration="1400"
+            >
               <div class="accordion-item">
                 <h2 class="accordion-header" id="headingCourse4">
                   <button
@@ -343,13 +391,16 @@ data-aos-duration="1000" >
 
     <!-- youtube video add start  -->
     <section class="video-section py-5">
-      <div class="container" data-aos="flip-left"
-      data-aos-easing="ease-out-cubic"
-      data-aos-duration="1000">
+      <div
+        class="container"
+        data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="1000"
+      >
         <h2 class="text-center mb-4 fw-bold">Watch Our Featured Video</h2>
         <div class="row justify-content-center">
           <div class="col-md-8">
-            <div class="ratio ratio-16x9 shadow ">
+            <div class="ratio ratio-16x9 shadow">
               <iframe
                 src="https://www.youtube.com/embed/ZKJwhPw46ko?si=OI7BRah0s0tLY9Z1"
                 title="YouTube video"
@@ -367,27 +418,29 @@ data-aos-duration="1000" >
     <!-- gil advisory board start -->
 
     <section class="gil-academic-board py-5">
-      <div class="container" data-aos="fade-up" data-aos-duration="1000"
-      >
+      <div class="container" data-aos="fade-up" data-aos-duration="1000">
         <!-- Header -->
         <div class="text-center mb-5">
-          <h2 class="fw-bold" style="color: #E95821;">GIL Advisory Board</h2>
-          
+          <h2 class="fw-bold" style="color: #e95821">GIL Advisory Board</h2>
         </div>
 
         <!-- Board Members -->
         <div class="row g-4">
           <!-- Member 1 -->
           <div class="col-12 col-md-6 col-lg-3">
-            <div class="card text-center h-100">
-              <img data-aos="fade-up"
-     data-aos-duration="1100"
+            <div class="card text-center h-100 board-card">
+              <img
+                data-aos="fade-up"
+                data-aos-duration="1100"
                 src="./images/Prof.(Dr.) Sanjeevi Shantha kumar.png"
                 alt="Advisor 1"
                 class="card-img-top img-fluid img-responsive"
               />
-              <div class="card-body" data-aos="fade-up"
-              data-aos-duration="1200">
+              <div
+                class="card-body"
+                data-aos="fade-up"
+                data-aos-duration="1200"
+              >
                 <h5 class="card-title fw-bold">
                   Prof. (Dr) Sanjeevi Shanthakumar
                 </h5>
@@ -401,21 +454,23 @@ data-aos-duration="1000" >
 
           <!-- Member 2 -->
           <div class="col-12 col-md-6 col-lg-3">
-            <div class="card text-center h-100" data-aos="fade-right"
-            data-aos-duration="1300">
-              <img  data-aos="fade-up"
-            data-aos-duration="1400"
+            <div
+              class="card text-center h-100 board-card"
+              data-aos="fade-right"
+              data-aos-duration="1300"
+            >
+              <img
+                data-aos="fade-up"
+                data-aos-duration="1400"
                 src="./images/Prof. (Dr.) Rajpal Sharma.png"
                 alt="Advisor 2"
                 class="card-img-top img-fluid img-responsive"
               />
               <div class="card-body">
-                <h5 class="card-title fw-bold">
-                  Prof. (Dr.) Rajpal Sharma
-                </h5>
+                <h5 class="card-title fw-bold">Prof. (Dr.) Rajpal Sharma</h5>
                 <p class="card-text text-muted">
-                  Director, 
-Institute of Law, Kurukshetra University, Kurukshetra
+                  Director, Institute of Law, Kurukshetra University,
+                  Kurukshetra
                 </p>
               </div>
             </div>
@@ -423,10 +478,14 @@ Institute of Law, Kurukshetra University, Kurukshetra
 
           <!-- Member 3 -->
           <div class="col-12 col-md-6 col-lg-3">
-            <div class="card text-center h-100"  data-aos="fade-left"
-            data-aos-duration="1500">
-              <img  data-aos="fade-up"
-            data-aos-duration="1600"
+            <div
+              class="card text-center h-100 board-card"
+              data-aos="fade-left"
+              data-aos-duration="1500"
+            >
+              <img
+                data-aos="fade-up"
+                data-aos-duration="1600"
                 src="./images/Prof. (Dr.)  Manjula Batra (1).png"
                 alt="Advisor 3"
                 class="card-img-top img-fluid img-responsive"
@@ -443,10 +502,14 @@ Institute of Law, Kurukshetra University, Kurukshetra
 
           <!-- Member 4 -->
           <div class="col-12 col-md-6 col-lg-3">
-            <div class="card text-center h-100"  data-aos="fade-right"
-            data-aos-duration="1700">
-              <img  data-aos="fade-up"
-            data-aos-duration="1800"
+            <div
+              class="card text-center h-100 board-card"
+              data-aos="fade-right"
+              data-aos-duration="1700"
+            >
+              <img
+                data-aos="fade-up"
+                data-aos-duration="1800"
                 src="./images/Prof. (Dr.) S.S. Jaswal.png"
                 alt="Advisor 4"
                 class="card-img-top img-fluid img-responsive"
@@ -469,34 +532,64 @@ Institute of Law, Kurukshetra University, Kurukshetra
 
     <section class="award-images-section py-5">
       <div class="container">
-        <h2 class="text-center mb-3 fw-bold"  data-aos="fade-down"
-        data-aos-duration="1000">AWARDS & RANKINGS</h2>
-        <h4 class="mb-5 text-center "  data-aos="fade-up"
-        data-aos-duration="1100">Proven Excellence Year After Year</h4>
+        <h2
+          class="text-center mb-3 fw-bold"
+          data-aos="fade-down"
+          data-aos-duration="1000"
+        >
+          AWARDS & RANKINGS
+        </h2>
+        <h4
+          class="mb-5 text-center"
+          data-aos="fade-up"
+          data-aos-duration="1100"
+        >
+          Proven Excellence Year After Year
+        </h4>
 
         <div class="row g-4 justify-content-center">
           <!-- Award 1 -->
           <div class="col-md-3 col-6 d-flex justify-content-center">
-            <img  data-aos="fade-right"
-            data-aos-duration="1200" src="./images/award1.PNG" class="img-fluid" alt="Award 1" />
+            <img
+              data-aos="fade-right"
+              data-aos-duration="1200"
+              src="./images/award1.PNG"
+              class="img-fluid"
+              alt="Award 1"
+            />
           </div>
 
           <!-- Award 2 -->
           <div class="col-md-3 col-6 d-flex justify-content-center">
-            <img  data-aos="fade-left"
-            data-aos-duration="1300" src="./images/award2.PNG" class="img-fluid" alt="Award 2" />
+            <img
+              data-aos="fade-left"
+              data-aos-duration="1300"
+              src="./images/award2.PNG"
+              class="img-fluid"
+              alt="Award 2"
+            />
           </div>
 
           <!-- Award 3 -->
           <div class="col-md-3 col-6 d-flex justify-content-center">
-            <img  data-aos="fade-right"
-            data-aos-duration="1400" src="./images/award3.PNG" class="img-fluid" alt="Award 3" />
+            <img
+              data-aos="fade-right"
+              data-aos-duration="1400"
+              src="./images/award3.PNG"
+              class="img-fluid"
+              alt="Award 3"
+            />
           </div>
 
           <!-- Award 4 -->
           <div class="col-md-3 col-6 d-flex justify-content-center">
-            <img  data-aos="fade-left"
-            data-aos-duration="1500" src="./images/award4.PNG" class="img-fluid" alt="Award 4" />
+            <img
+              data-aos="fade-left"
+              data-aos-duration="1500"
+              src="./images/award4.PNG"
+              class="img-fluid"
+              alt="Award 4"
+            />
           </div>
         </div>
       </div>
@@ -508,22 +601,29 @@ Institute of Law, Kurukshetra University, Kurukshetra
 
     <section class="conference-experts-section py-5">
       <div class="container">
-        <h2 class="text-center mb-4 fw-bold"  data-aos="fade-down"
-        data-aos-duration="1000" >
+        <h2
+          class="text-center mb-4 fw-bold"
+          data-aos="fade-down"
+          data-aos-duration="1000"
+        >
           CONFERENCES & EXPERT INTERACTIONS
         </h2>
         <div class="row g-4">
           <!-- Expert 1 -->
           <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-center">
             <div class="expert-card text-center p-3 shadow">
-              <img data-aos="zoom-in"
-        data-aos-duration="1100"
+              <img
+                data-aos="zoom-in"
+                data-aos-duration="1100"
                 src="./images/Conf image.png"
                 alt="Expert 1"
                 class="img-fluid rounded"
               />
-              <p class="text-muted mt-4" data-aos="fade-down"
-              data-aos-duration="1200">
+              <p
+                class="text-muted mt-4"
+                data-aos="fade-down"
+                data-aos-duration="1200"
+              >
                 Hon’ble Mr. Justice D. Maheshwari, Judge Supreme Court of India,
                 at the 13th National Moot Court Competition
               </p>
@@ -532,47 +632,58 @@ Institute of Law, Kurukshetra University, Kurukshetra
           <!-- Expert 2 -->
           <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-center">
             <div class="expert-card text-center p-3 shadow">
-              <img data-aos="zoom-in"
-        data-aos-duration="1300"
+              <img
+                data-aos="zoom-in"
+                data-aos-duration="1300"
                 src=".//images/Conf image 1.png"
                 alt="Expert 2"
                 class="img-fluid rounded"
               />
-              <p data-aos="fade-down"
-              data-aos-duration="1300" class="text-muted mt-4">
-              Hon’ble Mr. Justice A.K. Monga, Judge, Punjab & Haryana High
+              <p
+                data-aos="fade-down"
+                data-aos-duration="1300"
+                class="text-muted mt-4"
+              >
+                Hon’ble Mr. Justice A.K. Monga, Judge, Punjab & Haryana High
                 Court @ GIL
-                
               </p>
             </div>
           </div>
           <!-- Expert 3 -->
           <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-center">
             <div class="expert-card text-center p-3 shadow">
-              <img data-aos="zoom-in"
-        data-aos-duration="1400"
+              <img
+                data-aos="zoom-in"
+                data-aos-duration="1400"
                 src="./images/Conf image 2.png"
                 alt="Expert 3"
                 class="img-fluid rounded"
               />
-              <p data-aos="fade-down"
-              data-aos-duration="1500" class="text-muted mt-4">
-              International Conference in Collaboration with Kathmandu School
-              of Law, Nepal
+              <p
+                data-aos="fade-down"
+                data-aos-duration="1500"
+                class="text-muted mt-4"
+              >
+                International Conference in Collaboration with Kathmandu School
+                of Law, Nepal
               </p>
             </div>
           </div>
           <!-- Expert 4 -->
           <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-center">
             <div class="expert-card text-center p-3 shadow">
-              <img data-aos="zoom-in"
-        data-aos-duration="1600"
+              <img
+                data-aos="zoom-in"
+                data-aos-duration="1600"
                 src="./images/Conf image 3.png"
                 alt="Expert 4"
                 class="img-fluid rounded"
               />
-              <p data-aos="fade-down"
-              data-aos-duration="1700" class="text-muted mt-4">
+              <p
+                data-aos="fade-down"
+                data-aos-duration="1700"
+                class="text-muted mt-4"
+              >
                 14th National Moot Court Competition 2024.
               </p>
             </div>
@@ -586,10 +697,14 @@ Institute of Law, Kurukshetra University, Kurukshetra
     <!-- what student say section  -->
 
     <section class="student-testimonials py-5">
-      <div class="container" data-aos="fade-up"
-      data-aos-duration="1000">
-        <h2 data-aos="zoom-in"
-        data-aos-duration="1100" class="text-center mb-4 fw-bold">What GIL Students Say</h2>
+      <div class="container" data-aos="fade-up" data-aos-duration="1000">
+        <h2
+          data-aos="zoom-in"
+          data-aos-duration="1100"
+          class="text-center mb-4 fw-bold"
+        >
+          What GIL Students Say
+        </h2>
         <!-- Carousel for Mobile -->
         <div
           id="testimonialCarousel"
@@ -606,17 +721,15 @@ Institute of Law, Kurukshetra University, Kurukshetra
                   alt="Student 1"
                   style="width: 100px; height: 100px"
                 />
-                <h5 class="card-title fw-bold">
-                  Tachungnalo
-                </h5>
+                <h5 class="card-title fw-bold">Tachungnalo</h5>
                 <p
                   class="text-muted"
                   style="text-align: justify; text-align-last: center"
                 >
                   The professors here are well-qualified and very cooperative.
                   We also have Debate competitions, Moot Courts, Seminars, etc,
-                  that help develop our personality. The institute nurtures student skills to achieve
-                  success in the legal profession.
+                  that help develop our personality. The institute nurtures
+                  student skills to achieve success in the legal profession.
                 </p>
               </div>
             </div>
@@ -629,9 +742,7 @@ Institute of Law, Kurukshetra University, Kurukshetra
                   alt="Student 2"
                   style="width: 100px; height: 100px"
                 />
-                <h5 class="card-title fw-bold">
-                  Sangay Thinley
-                </h5>
+                <h5 class="card-title fw-bold">Sangay Thinley</h5>
                 <p
                   class="text-muted"
                   style="text-align: justify; text-align-last: center"
@@ -653,9 +764,7 @@ Institute of Law, Kurukshetra University, Kurukshetra
                   alt="Student 3"
                   style="width: 100px; height: 100px"
                 />
-                <h5 class="card-title fw-bold">
-                  Nandini Verma
-                </h5>
+                <h5 class="card-title fw-bold">Nandini Verma</h5>
                 <p
                   class="text-muted"
                   style="text-align: justify; text-align-last: center"
@@ -676,9 +785,7 @@ Institute of Law, Kurukshetra University, Kurukshetra
                   alt="Student 4"
                   style="width: 100px; height: 100px"
                 />
-                <h5 class="card-title fw-bold">
-                  Adv. Intezar Ali Khan
-                </h5>
+                <h5 class="card-title fw-bold">Adv. Intezar Ali Khan</h5>
                 <p
                   class="text-muted"
                   style="text-align: justify; text-align-last: center"
@@ -723,9 +830,7 @@ Institute of Law, Kurukshetra University, Kurukshetra
                 alt="Student 1"
                 style="width: 100px; height: 100px"
               />
-              <h5 class="card-title fw-bold">
-                Tachungnalo
-              </h5>
+              <h5 class="card-title fw-bold">Tachungnalo</h5>
               <p
                 class="text-muted"
                 style="text-align: justify; text-align-last: center"
@@ -747,9 +852,7 @@ Institute of Law, Kurukshetra University, Kurukshetra
                 alt="Student 2"
                 style="width: 100px; height: 100px"
               />
-              <h5 class="card-title fw-bold">
-                Sangay Thinley
-              </h5>
+              <h5 class="card-title fw-bold">Sangay Thinley</h5>
               <p
                 class="text-muted"
                 style="text-align: justify; text-align-last: center"
@@ -771,9 +874,7 @@ Institute of Law, Kurukshetra University, Kurukshetra
                 alt="Student 3"
                 style="width: 100px; height: 100px"
               />
-              <h5 class="card-title fw-bold">
-                Nandini Verma
-              </h5>
+              <h5 class="card-title fw-bold">Nandini Verma</h5>
               <p
                 class="text-muted"
                 style="text-align: justify; text-align-last: center"
@@ -794,9 +895,7 @@ Institute of Law, Kurukshetra University, Kurukshetra
                 alt="Student 4"
                 style="width: 100px; height: 100px"
               />
-              <h5 class="card-title fw-bold">
-                Adv. Intezar Ali Khan
-              </h5>
+              <h5 class="card-title fw-bold">Adv. Intezar Ali Khan</h5>
               <p
                 class="text-muted"
                 style="text-align: justify; text-align-last: center"
@@ -815,8 +914,7 @@ Institute of Law, Kurukshetra University, Kurukshetra
 
     <!-- intership and placement logo and alumni 12 photos 4 *3 with slider also text start  -->
     <section class="internship-placement-section py-5">
-      <div class="container" data-aos="zoom-in"
-      data-aos-duration="1000">
+      <div class="container" data-aos="zoom-in" data-aos-duration="1000">
         <h2 class="text-center mb-4 fw-bold">
           Internship & Placement Partners
         </h2>
@@ -827,7 +925,7 @@ Institute of Law, Kurukshetra University, Kurukshetra
         >
           <div class="carousel-inner">
             <!-- First Slide (4 Logos) -->
-            <div class="carousel-item active" >
+            <div class="carousel-item active">
               <div class="row g-4">
                 <!-- Logo 1 -->
                 <div class="col-md-3 col-6 d-flex justify-content-center">
@@ -924,11 +1022,19 @@ Institute of Law, Kurukshetra University, Kurukshetra
           </button>
         </div>
 
-        <h2 class="text-center mt-5 mb-4 fw-bold" data-aos="flip-left"
-        data-aos-duration="1000">Our Alumni</h2>
+        <h2
+          class="text-center mt-5 mb-4 fw-bold"
+          data-aos="flip-left"
+          data-aos-duration="1000"
+        >
+          Our Alumni
+        </h2>
         <div id="alumniCarousel" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner" data-aos="zoom-in"
-          data-aos-duration="1100">
+          <div
+            class="carousel-inner"
+            data-aos="zoom-in"
+            data-aos-duration="1100"
+          >
             <!-- First Slide (4 Alumni Photos) -->
             <div class="carousel-item active">
               <div class="row g-4">
@@ -952,7 +1058,6 @@ Institute of Law, Kurukshetra University, Kurukshetra
                       alt="Alumni 2"
                     />
                     <h5 class="fw-bold mb-0">KAJAL</h5>
-
                   </div>
                 </div>
                 <!-- Alumni 3 -->
@@ -964,7 +1069,6 @@ Institute of Law, Kurukshetra University, Kurukshetra
                       alt="Alumni 3"
                     />
                     <h5 class="fw-bold mb-0">NAMARTA</h5>
-
                   </div>
                 </div>
                 <!-- Alumni 4 -->
@@ -976,7 +1080,6 @@ Institute of Law, Kurukshetra University, Kurukshetra
                       alt="Alumni 4"
                     />
                     <h5 class="fw-bold mb-0">Nandani</h5>
-
                   </div>
                 </div>
               </div>
@@ -994,8 +1097,6 @@ Institute of Law, Kurukshetra University, Kurukshetra
                       alt="Alumni 5"
                     />
                     <h5 class="fw-bold mb-0">PARTIBHA</h5>
-
-                    
                   </div>
                 </div>
                 <!-- Alumni 6 -->
@@ -1007,7 +1108,6 @@ Institute of Law, Kurukshetra University, Kurukshetra
                       alt="Alumni 6"
                     />
                     <h5 class="fw-bold mb-0">PAWANDEEP</h5>
-
                   </div>
                 </div>
                 <!-- Alumni 7 -->
@@ -1019,7 +1119,6 @@ Institute of Law, Kurukshetra University, Kurukshetra
                       alt="Alumni 7"
                     />
                     <h5 class="fw-bold mb-0">PULKIT</h5>
-
                   </div>
                 </div>
                 <!-- Alumni 8 -->
@@ -1031,7 +1130,6 @@ Institute of Law, Kurukshetra University, Kurukshetra
                       alt="Alumni 8"
                     />
                     <h5 class="fw-bold mb-0">RASHI</h5>
-
                   </div>
                 </div>
               </div>
@@ -1049,7 +1147,6 @@ Institute of Law, Kurukshetra University, Kurukshetra
                       alt="Alumni 9"
                     />
                     <h5 class="fw-bold mb-0">RISHABH</h5>
-
                   </div>
                 </div>
                 <!-- Alumni 10 -->
@@ -1061,7 +1158,6 @@ Institute of Law, Kurukshetra University, Kurukshetra
                       alt="Alumni 10"
                     />
                     <h5 class="fw-bold mb-0">SHANU</h5>
-
                   </div>
                 </div>
                 <!-- Alumni 11 -->
@@ -1073,7 +1169,6 @@ Institute of Law, Kurukshetra University, Kurukshetra
                       alt="Alumni 11"
                     />
                     <h5 class="fw-bold mb-0">SIDHARTH</h5>
-
                   </div>
                 </div>
                 <!-- Alumni 12 -->
@@ -1085,7 +1180,6 @@ Institute of Law, Kurukshetra University, Kurukshetra
                       alt="Alumni 12"
                     />
                     <h5 class="fw-bold mb-0">VIDHAN</h5>
-
                   </div>
                 </div>
               </div>
@@ -1118,7 +1212,10 @@ Institute of Law, Kurukshetra University, Kurukshetra
     <!-- intership and placement logo and alumni 12 photos 4 *3 with slider also text end  -->
 
     <!-- footer section here start  -->
-    <section class="footer py-5" style="background-color: rgba(128, 128, 128, 0.426);">
+    <section
+      class="footer py-5"
+      style="background-color: rgba(128, 128, 128, 0.426)"
+    >
       <div class="container">
         <div class="row">
           <!-- Logo and Paragraph -->
@@ -1135,7 +1232,7 @@ Institute of Law, Kurukshetra University, Kurukshetra
             </p> -->
             <p class="phone-email">
               <strong>Phone:</strong> +91 9729970000<br />
-              <strong>Email:</strong>  admissiongil@geeta.edu.in
+              <strong>Email:</strong> admissiongil@geeta.edu.in
             </p>
           </div>
 
@@ -1143,16 +1240,32 @@ Institute of Law, Kurukshetra University, Kurukshetra
           <div class="col-md-4 text-center mb-1 mb-md-0">
             <h5>Follow Us</h5>
             <div class="social-icons">
-              <a href="https://www.facebook.com/GeetaLawCollege" class="social-icon mx-2" style="color: #E95821;">
+              <a
+                href="https://www.facebook.com/GeetaLawCollege"
+                class="social-icon mx-2"
+                style="color: #e95821"
+              >
                 <i class="fab fa-facebook-f"></i>
               </a>
-              <a href="https://www.youtube.com/@gilpnp" class="social-icon mx-2" style="color: #E95821;">
+              <a
+                href="https://www.youtube.com/@gilpnp"
+                class="social-icon mx-2"
+                style="color: #e95821"
+              >
                 <i class="fab fa-youtube"></i>
               </a>
-              <a href="https://www.linkedin.com/company/14501295/admin/inbox/" class="social-icon mx-2" style="color: #E95821;">
+              <a
+                href="https://www.linkedin.com/company/14501295/admin/inbox/"
+                class="social-icon mx-2"
+                style="color: #e95821"
+              >
                 <i class="fab fa-linkedin-in"></i>
               </a>
-              <a href="https://www.instagram.com/geeta_institute_of_law/" class="social-icon mx-2" style="color: #E95821;">
+              <a
+                href="https://www.instagram.com/geeta_institute_of_law/"
+                class="social-icon mx-2"
+                style="color: #e95821"
+              >
                 <i class="fab fa-instagram"></i>
               </a>
             </div>
@@ -1162,7 +1275,8 @@ Institute of Law, Kurukshetra University, Kurukshetra
         <!-- Footer Bottom -->
         <div class="row mt-4">
           <div class="col-12 text-center">
-            <p class="text-muted"> Terms & Conditions <br>
+            <p class="text-muted">
+              Terms & Conditions <br />
               &copy; 2025 GIL, All Rights Reserved.
             </p>
           </div>
