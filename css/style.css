@@ -200,6 +200,15 @@ body{
     padding-top: 10px;
   }
 
+  .Gil-students
+  {
+    background-color: #E0E0E0;
+    padding: 20px;
+    height: 350px;
+    margin: 5px;
+    border-radius: 20px;
+  }
+
   /* <!-- student images 4   with 40 words text end --> */
 
   /* <!-- intership and placement logo and alumni 12 photos 4 *3 with slider also text start  --> */
@@ -246,4 +255,16 @@ body{
     background-color: #ffffff;
     border-radius: 10px;
   }
+
+
+  /* footer 
+   */
+
+   .footer
+   {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+   }
+
+
   
