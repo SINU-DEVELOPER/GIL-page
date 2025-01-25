@@ -9,7 +9,7 @@
 }
 
 img{
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
 
 }
 
@@ -110,6 +110,39 @@ img{
   }
   
   /* <!-- youtube video add end  --> */
+
+  /* GIL advisory board start  */
+  .gil-academic-board .img-responsive {
+    width: 180px; 
+    height: 180px; 
+  }
+
+  .gil-academic-board .img-responsive {
+    /* height: 200px;  */
+    object-fit: contain;
+    display: block;
+    margin: 0 auto; /* Center the image */
+  }
+  
+  .gil-academic-board .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .gil-academic-board .card-body {
+    text-align: center;
+  }
+  
+
+
+  /* GIL advisory board end  */
+
+
+
+
+
+
 
   /* <!-- student images 4   with 40 words text start --> */
 
