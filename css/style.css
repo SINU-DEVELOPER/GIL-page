@@ -209,6 +209,16 @@ body{
     border-radius: 20px;
   }
 
+  .testimonial-card
+  {
+    background-color: #E0E0E0;
+    padding:20px 5px;
+    height: 400px;
+    border-radius: 20px;
+    font-size: 15px;
+
+  }
+
   /* <!-- student images 4   with 40 words text end --> */
 
   /* <!-- intership and placement logo and alumni 12 photos 4 *3 with slider also text start  --> */
