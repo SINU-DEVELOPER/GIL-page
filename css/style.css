@@ -212,10 +212,10 @@ body{
   .testimonial-card
   {
     background-color: #E0E0E0;
-    padding:20px 5px;
-    height: 400px;
+    padding:20px 10px;
+    height: 380px;
     border-radius: 20px;
-    font-size: 15px;
+    font-size: 14px;
 
   }
 
