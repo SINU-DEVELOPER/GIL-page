@@ -8,15 +8,16 @@
 
 }
 
-img{
-    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
-
+body{
+  overflow-x:hidden !important ;
 }
+
+
 
 /* section 1  start */
 
 .header-section {
-    background-color: #f8f9fa; 
+    background-color: transparent !important; 
   }
  
   
@@ -58,8 +59,9 @@ img{
   }
   
   #readMoreBtn {
-    background-color: #a020f0; 
+    background-color: #E95821; 
     border: none;
+    color: white;
   }
   
   
@@ -73,20 +75,20 @@ img{
 
 
  .course-details-section {
-    background-color: #f8f9fa; /* Light background */
+    background-color: #29376D; /* Light background */
+    border-radius: 10px;
+    margin:0px 10px;
   }
   
-  h2 {
-    color: #343a40;
-  }
+  
   
   .accordion-button {
-    background-color: #a020f0; 
+    background-color: #E95821; 
     color: white;
   }
   
   .accordion-button:not(.collapsed) {
-    background-color: #8f1cd4; 
+    background-color: #E95821; 
   }
   
   .accordion-body {
@@ -105,13 +107,21 @@ img{
   }
   
   h2 {
-    color: #343a40; 
+    color: #E95821; 
     font-size: 2rem;
   }
   
   /* <!-- youtube video add end  --> */
 
   /* GIL advisory board start  */
+
+  .gil-academic-board {
+    background-color: #29376D;
+    margin: 0px 10px;
+    border-radius: 10px;
+    padding: 10px;
+  }
+
   .gil-academic-board .img-responsive {
     width: 180px; 
     height: 180px; 
@@ -158,10 +168,7 @@ img{
     background-color: #f8f9fa; 
   }
   
-  .award-images-section h2 {
-    color: #343a40; 
-    font-size: 2rem;
-  }
+
   
   .award-images-section img {
     /* border-radius: 10px; */
@@ -179,10 +186,7 @@ img{
     background-color: #f8f9fa; /* Light background for the section */
   }
   
-  h2 {
-    color: #343a40; /* Dark heading color */
-    font-size: 2rem;
-  }
+ 
   
   .student-card img {
     width: 120px; 
@@ -200,6 +204,7 @@ img{
 
   /* <!-- intership and placement logo and alumni 12 photos 4 *3 with slider also text start  --> */
 
+ 
   .internship-placement-section img {
     width: 100%;
     height: 90px;
@@ -212,9 +217,8 @@ img{
     
   }
   
-  h2 {
+  .internship-placement-section h2 {
     font-size: 2rem;
-    color: #343a40;
     margin-bottom: 1.5rem;
   }
   
@@ -225,4 +229,21 @@ img{
   }
   
   /* <!-- intership and placement logo and alumni 12 photos 4 *3 with slider also text end  --> */
+
+
+  /* conference  */
+
+  .conference-experts-section
+  {
+    background-color: #29376D;
+    margin: 0px 10px;
+    border-radius: 10px;
+    padding: 10px;
+  }
+
+  .conference-experts-section .expert-card
+  {
+    background-color: #ffffff;
+    border-radius: 10px;
+  }
   
