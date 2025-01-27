@@ -284,7 +284,20 @@ body{
 
 }
 
+.desktopCarousel
+{
+  position: relative;
+}
 
+.admission-form-api
+{
+  background-color: white;
+  position: absolute;
+  top: 50px;
+  z-index: 1;
+  right: 80px;
+ 
+}
 
 
 
